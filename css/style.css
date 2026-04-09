@@ -1,0 +1,10 @@
+        body {font-family: "Dosis", sans-serif;
+     background-color: darkgray;
+    }
+ h1 {
+    text-align: center;
+ }
+ section {width: 80%;
+margin: auto;
+border: 2px solid black;
+padding: 10px;}
