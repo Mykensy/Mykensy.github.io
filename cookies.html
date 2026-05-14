@@ -24,11 +24,21 @@
             flex-direction: column;
             align-items: center;
         }
+     #cookies{
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+    transition: transform 0.3s;
+    filter: drop-shadow(0 10px 15px #f5f5dc );
+}
+
+.cookies:active {
+    transform: scale(0.98);
+}
     </style>
 </head>
 
 <body>
-    <img src="cookie-removebg-preview.png" alt="cookie" width="400" id="cookie" onclick="cookieClick()">
+    <img src="cookie-removebg-preview.png" alt="cookie" width="400" id="cookie" class="cookies" onclick="cookieClick()">
     <div id="score">0</div>
     <button id="autoButton" onclick=" autoClickUpgrade()">Upgrade Auto-click(100 clicks)</button>
     <button id="autoButtons" onclick=" clickMultiUpgrade()">Upgrade click Multiplier (100 clicks)</button>
