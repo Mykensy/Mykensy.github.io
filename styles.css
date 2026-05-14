@@ -48,3 +48,11 @@ nav ul li:hover {background-color: aliceblue;
             transition: 1s;
               box-shadow: 10px 10px 5px;
             }
+  img .responsive{
+    width: 100%;
+    height: auto;
+   } 
+   .responsive {
+  max-width: 100%;
+  height: auto;
+}        
